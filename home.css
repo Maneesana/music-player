@@ -198,7 +198,7 @@ h3 {
   font-size: 2rem;
   color: #e7eaeb;
   text-transform: uppercase;
-  text-decoration: dashed;
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .now-playing {
   text-transform: uppercase;
