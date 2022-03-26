@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+  </head>
+  <link rel="stylesheet" href="./home.css" />
+  <body>
+    <h3 id="welcome">
+      MUSIC PLAYER
+      <p>made with love</p>
+    </h3>
+    <div class="main-container">
+      <div class="song-details">
+        <h3>Esei Taminac</h3>
+        <div class="now-playing song-info">Now Playing</div>
+        <div class="artist-name song-info">Artist Name</div>
+        <div class="song-name song-info">Song Name</div>
+      </div>
+
+      <!-- controls list -->
+      <div class="buttons-wrapper">
+        <div class="controls-list">
+          <div class="previous-button">
+            <div class="vertical-line-prev"></div>
+            <div class="triangle-shape-opp"></div>
+          </div>
+          <div class="play-button">
+            <div class="triangle-shape"></div>
+            <div></div>
+          </div>
+          <div class="next-button">
+            <div class="triangle-shape"></div>
+            <div class="vertical-line-next"></div>
+          </div>
+        </div>
+        <div class="play-line">
+          <!-- <p>0:00</p> -->
+          <input value="0" type="range" max="100" min="0" class="slider" />
+          <!-- <p>0:00</p> -->
+        </div>
+        <div class="volume-container">
+          <p class="volume">Volume:</p>
+          <div class="volume-slider">
+            <input
+              value="10"
+              type="range"
+              max="10"
+              min="0"
+              class="slider slider-vol"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer">
+      Made with 💙:Maibam Maneesana Singh :)
+      <p>Show me some love here by giving stars if you have GitHub:</p>
+      <a target="blank" href="https://github.com/Maneesana/music-player"
+        >My GitHub Profile</a
+      >
+    </footer>
+
+    <audio class="music-data" src="./Music/alarm.mp3">Your music</audio>
+    <script src="./home.js"></script>
+  </body>
+</html>
