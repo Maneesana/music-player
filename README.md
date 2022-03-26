@@ -14,7 +14,7 @@
 ## Steps to follow 
 
 1.Make sure you make available your favourite songs offline  and put all of it under the `Music folder`.You can get your songs from some sort of `music-database` using *API* calls    
-2.Manually `add` the following code snippet after correctly entering the details for each song you want to hear.  
+2.Manually `add` the following code snippet after correctly entering the details for each song you want to listen.  
 ```js
 {
 artist:`song-artist-name`,
@@ -27,7 +27,7 @@ path:"./Music/{your-song-name}.mp3"
 
 
 ---
-You can find this code in the first part `home.js` file.
+You can find this code in the first part of `home.js` file.
 ```code
 const songCollection = [
   { artist: "Annie Marrie", songname: "Alarm", path: "./Music/alarm.mp3" },
