@@ -17,7 +17,7 @@ body {
   gap: 4rem;
   margin-left: auto;
   margin-right: auto;
-  width: 350px;
+  width: 320px;
   height: 33rem;
   padding: 2rem;
   background: linear-gradient(
@@ -291,7 +291,7 @@ footer {
   margin-top: 4rem;
   margin-bottom: 15rem;
   padding-bottom: 3rem;
-  font-family: cursive;
+   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #4568dc;
   font-weight: 900;
   margin-left: auto;
