@@ -30,7 +30,7 @@ path:"./Music/{your-song-name}.mp3"
 You can find this code in the first part of `home.js` file.
 ```code
 const songCollection = [
-  { artist: "Annie Marrie", songname: "Alarm", path: "./Music/alarm.mp3" },
+  { artist: "Annie Marie", songname: "Alarm", path: "./Music/alarm.mp3" },
   {
     artist: "Alan Walker",
     songname: "Sing Me To Sleep",
